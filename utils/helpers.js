@@ -19,6 +19,6 @@ module.exports = {
       .replace('www.', '')
       .split('/')[0]
       .split('?')[0];
-  },
-}
+  }
+};
 
