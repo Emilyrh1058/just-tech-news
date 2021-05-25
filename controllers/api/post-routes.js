@@ -141,6 +141,7 @@ router.put("/:id", withAuth, (req, res) => {
       res.status(500).json(err);
     });
 }),
+
   router.delete("/:id", withAuth, (req, res) => {
     console.log("id in router.delete", req.params.id);
     Post.destroy({
